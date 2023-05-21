@@ -1,8 +1,6 @@
 name: alert_box
 description: A new Flutter project.
 version: 0.0.1
-authors: Rohit Sahu<Rohitsahu1923@gmail.com>
-homepage:
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
@@ -11,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_fonts: ^4.0.4
 
 dev_dependencies:
   flutter_test:

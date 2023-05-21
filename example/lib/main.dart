@@ -107,10 +107,17 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () async{
+        onPressed: () async {
           await CustomAlertBox.showCustomAlertBox(
               context: context,
-              willDisplayWidget: const Text('My custom alert box, used from example!!'));
+              headingWidget:
+                  const Text('Alert'),
+              descWidget:
+                  const Text('My custom alert box, used from example!!'),
+            firstButtonClick: (){},
+            secondButtonClick: (){},
+            secondButtonColor: Colors.orange
+          );
         },
         tooltip: 'Increment',
         child: const Icon(Icons.add),
