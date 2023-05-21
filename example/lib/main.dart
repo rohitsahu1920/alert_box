@@ -110,14 +110,12 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: () async {
           await CustomAlertBox.showCustomAlertBox(
               context: context,
-              headingWidget:
-                  const Text('Alert'),
+              headingWidget: const Text('Alert'),
               descWidget:
                   const Text('My custom alert box, used from example!!'),
-            firstButtonClick: (){},
-            secondButtonClick: (){},
-            secondButtonColor: Colors.orange
-          );
+              firstButtonClick: () {},
+              secondButtonClick: () {},
+              secondButtonColor: Colors.orange);
         },
         tooltip: 'Increment',
         child: const Icon(Icons.add),
