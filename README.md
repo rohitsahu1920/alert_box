@@ -26,7 +26,14 @@ You do not need ant special thing to do wi
 Just import the package and use it.
 
 ```dart
-const like = 'sample';
+await CustomAlertBox.showCustomAlertBox(
+context: context,
+headingWidget: const Text('Alert'),
+descWidget:
+const Text('My custom alert box, used from example!!'),
+firstButtonClick: () {},
+secondButtonClick: () {},
+secondButtonColor: Colors.orange);
 ```
 
 ## Additional information

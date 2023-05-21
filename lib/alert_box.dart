@@ -2,8 +2,6 @@
 library custom_alert_box;
 
 import 'package:flutter/material.dart';
-
-import 'colors.dart';
 import 'font_family.dart';
 
 class CustomAlertBox {
